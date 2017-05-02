@@ -36,7 +36,7 @@ The goals / steps of this project are the following:
 
 ####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+You're reading it! and here is a link to my [project code](https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
 ###Data Set Summary & Exploration
 
@@ -57,7 +57,7 @@ Here is an exploratory visualization of the data set.
 It is a bar chart showing how the data is not uniformly distributed across the classes. 
 Some classes have  less amount of data as compared to others.
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/BarChart.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/BarChart.png)
 
 ###Design and Test a Model Architecture
 
@@ -68,15 +68,15 @@ As a first step, I decided to convert the images to grayscale because grayscale 
 Here is an example of a traffic sign image before and after grayscaling.
 
 Original Input image
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/OriginalInput.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/OutputImages/OriginalInput.png)
 
 Grayscale image
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/GrayscaleInput.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/OutputImages/GrayscaleInput.png)
 
 As a last step, I normalized the image data in the range of -0.5 to 0.5 because normalization helps in limiting the range of input values and helps in detecting shapes really well.
 
 Normalized Grayscale image
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/NormalizedInput.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/OutputImages/NormalizedInput.png)
 
 
 
@@ -140,15 +140,15 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/2_1.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/DataSet/Web/german/2_1.png)
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/11_1.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/DataSet/Web/german/11_1.png)
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/14_1.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/DataSet/Web/german/14_1.png)
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/25_1.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/DataSet/Web/german/25_1.png)
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/28_1.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/DataSet/Web/german/28_1.png)
 
 My Convolution Network not able to classify traffic speed numbers, it has low precision on them because it is not able to detect numbers really well.
 
@@ -197,7 +197,7 @@ For the first image, the model is relatively sure that this is a Right-of-way at
 
 You can see the input image with a sign of Speed Limit(20 km/h) and convolution layer 1 with feature map of 16 is detecting edges of the image.
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/convlayer1ouput.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/OutputImages/convlayer1ouput.png)
 
 
 
