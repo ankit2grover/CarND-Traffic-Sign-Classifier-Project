@@ -57,7 +57,7 @@ Here is an exploratory visualization of the data set.
 It is a bar chart showing how the data is not uniformly distributed across the classes. 
 Some classes have  less amount of data as compared to others.
 
-    ![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/OutputImages/BarChart.png)
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/blob/master/OutputImages/BarChart.jpg)
 
 ###Design and Test a Model Architecture
 
