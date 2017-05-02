@@ -171,26 +171,26 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 23rd cell of the Ipython notebook.
 
-For the first image, the model predicted incorrent that this is a Speed limit (60km/h) (probability of 7.29%), and the image does contain a Speed limit (50km/h). The top five soft max probabilities were
+For the first image, the model predicted incorrent that this is a Speed limit (60km/h) (probability of 0.72), and the image does contain a Speed limit (50km/h). The top five soft max probabilities were
 
 | Probability(%)       	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 7.29         			| Speed limit (60km/h)   									| 
-| 3.24     				| Speed limit (80km/h) 										|
-| 1.76					| Bicycles crossing											|
-| 1.19	      			| Speed limit (50km/h)					 				|
-| .85				    | Go straight or right							|
+| 0.72         			| Speed limit (60km/h)   									| 
+| 0.10     				| Roundabout mandatory 										|
+| 0.04					| Road work											|
+| 0.03	      			| Ahead only					 				|
+| 0.02				    | Bicycles crossing							|
 
 
-For the first image, the model is relatively sure that this is a Right-of-way at the next intersection (probability of 44.30%), and the image does contain a Right-of-way at the next. The top five soft max probabilities were
+For the first image, the model is relatively sure that this is a Right-of-way at the next intersection (probability of 1), and the image does contain a Right-of-way at the next. The top five soft max probabilities were
 
 | Probability(%)       	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 44.30      			| Right-of-way at the next   									| 
-| 19.65     				| Pedestrians 										|
-| 19.01					| Beware of ice/snow											|
-| 7.12	      			| Traffic signals					 				|
-| 4.25				    | Turn left ahead							|
+| 1.00      			| Right-of-way at the next   									| 
+| 0.00   				| Beware of ice/snow 										|
+| 0.00					| Double curve											|
+| 0.00	      			| Pedestrians					 				|
+| 0.00				    | Priority road							|
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
