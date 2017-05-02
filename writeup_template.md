@@ -140,15 +140,15 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/2_1.png
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/2_1.png)
 
-![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/11_1.png
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/11_1.png)
 
-![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/14_1.png
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/14_1.png)
 
-![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/25_1.png
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/25_1.png)
 
-![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/28_1.png
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/DataSet/Web/german/28_1.png)
 
 My Convolution Network not able to classify traffic speed numbers, it has low precision on them because it is not able to detect numbers really well.
 
@@ -197,7 +197,7 @@ For the first image, the model is relatively sure that this is a Right-of-way at
 
 You can see the input image with a sign of Speed Limit(20 km/h) and convolution layer 1 with feature map of 16 is detecting edges of the image.
 
-![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/convlayer1ouput.png
+![alt tag] (https://github.com/ankit2grover/CarND-Traffic-Sign-Classifier-Project/OutputImages/convlayer1ouput.png)
 
 
 
